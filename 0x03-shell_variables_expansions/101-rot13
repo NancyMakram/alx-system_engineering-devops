@@ -1,4 +1,2 @@
-echo '#!/bin/bash' >> 101-rot13
-echo 'echo "$(cat $1)" | tr "A-Za-z" "N-ZA-Mn-za-m"' >> 101-rot13
 #!/bin/bash
-echo "$(cat $1)" | tr "A-Za-z" "N-ZA-Mn-za-m"
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
