@@ -1,2 +1,2 @@
-#!/bin/bash' > 101-rot13
-echo 'tr "A-Za-z" "N-ZA-Mn-za-m"' >> 101-rot13
+#!/bin/bash
+echo "$1" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
